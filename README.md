@@ -24,3 +24,5 @@ this project contains 2 screen
  [Dio](https://pub.dev/packages/dio).
 
  [Shared Preferences](https://pub.dev/packages/shared_preferences).
+ 
+ [endpoint used](https://mocki.io/v1/283ba093-9bf9-42e4-8f28-d2538937f9ca).
