@@ -20,8 +20,8 @@ class _EmployeeScreenState extends State<EmployeeScreen> {
   @override
   void initState() {
     super.initState();
-    getEmployees();
     getEmployeeFromCached();
+    getEmployees();
   }
 
   void getEmployees() async {
@@ -40,11 +40,13 @@ class _EmployeeScreenState extends State<EmployeeScreen> {
       isLoading = false;
       setState(() {});
     } on Exception catch (e) {
-      showSnackBar(e.toString());
+      setState(() {
+        print(e.toString());
+      });
     }
   }
 
-  getEmployeeFromCached() {
+  getEmployeeFromCached() async {
     try {
       String data = Prefs.getString(PrefKeys.employees);
       var jsonData = jsonDecode(data);
@@ -55,7 +57,7 @@ class _EmployeeScreenState extends State<EmployeeScreen> {
       isLoading = false;
       setState(() {});
     } on Exception catch (e) {
-      showSnackBar(e.toString());
+      print(e.toString());
     }
   }
 

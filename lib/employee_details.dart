@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:sprints_flutter_task_7/shared.dart';
 
 import 'employee.dart';
 
@@ -40,7 +39,7 @@ class _EmployeeDetailsScreenState extends State<EmployeeDetailsScreen> {
                       Text(
                           "Full name: ${widget.employee.firstName} ${widget.employee.lastName}"),
                       Text("Age: ${widget.employee.age}"),
-                      Text("E-mail: ${widget.employee.email}"),
+                      Text("E-mail: \n${widget.employee.email}"),
                       Text("Contact Number: ${widget.employee.contactNumber}"),
                       Text("Salary: ${widget.employee.salary}5000"),
                       Text("Date of Birth: ${widget.employee.dob}"),
