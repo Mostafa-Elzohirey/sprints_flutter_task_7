@@ -11,13 +11,13 @@ this project contains 2 screen
 2. employee data screen:
     when pressing an employee card the app navigates to this screen passing the selected user from the list screen to this one and displays more details about the employee
     including:
-     Full Name
-     Age
-     Email
-     Contact Number
-     Salary
-     Date Of Birth
-     Address
+     Full Name, 
+     Age, 
+     Email, 
+     Contact Number, 
+     Salary, 
+     Date Of Birth, 
+     Address, 
             
  packages used
  [Dio](https://pub.dev/packages/dio)
