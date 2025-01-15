@@ -20,7 +20,7 @@ class _EmployeeDetailsScreenState extends State<EmployeeDetailsScreen> {
       body: Center(
         child: Expanded(
           child: Container(
-            
+            height: 230,
             margin: EdgeInsets.only(bottom: 20),
             child: Card(
               elevation: 5,
