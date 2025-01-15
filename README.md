@@ -20,5 +20,6 @@ this project contains 2 screen
      Address, 
             
  packages used
- [Dio](https://pub.dev/packages/dio)
- [Shared Preferences](https://pub.dev/packages/shared_preferences)
+ [Dio](https://pub.dev/packages/dio).
+
+ [Shared Preferences](https://pub.dev/packages/shared_preferences).
